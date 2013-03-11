@@ -86,7 +86,7 @@ def startProcess(cellsWithinBounds,cellsAlreadyProcessedAndToFormWord):
 
 def main():
     global validCoordinates,validWords    
-    f=open("ruzzleFinalWordListWithCommas.txt","r")
+    f=open("ruzzleWordListWithCommas.txt","r")
     for line in f.read().split(','):
         italianDictionary[line]=True
         l=len(line)+1

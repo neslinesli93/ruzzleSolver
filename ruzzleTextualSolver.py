@@ -78,7 +78,7 @@ def main():
     italianDictionary={}
     validWords=[]
 
-    f=open("ruzzleFinalWordListWithCommas.txt","r")
+    f=open("ruzzleWordListWithCommas.txt","r")
     for line in f.read().split(','):
         italianDictionary[line]=True
         l=len(line)+1
